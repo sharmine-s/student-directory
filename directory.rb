@@ -118,5 +118,7 @@ def save_students
   end
 end
 
-load_students_on_open
-interactive_menu
+# load_students_on_open
+# interactive_menu
+
+puts File.read(__FILE__)
